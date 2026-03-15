@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Merriweather:wght@300;400;700&family=Source+Code+Pro:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --card: #f8f5f0;
+  --ring: #2e7d32;
+  --input: #e0d6c9;
+  --muted: #f0e9e0;
+  --accent: #c8e6c9;
+  --border: #e0d6c9;
+  --radius: 0.5rem;
+  --chart-1: #4caf50;
+  --chart-2: #388e3c;
+  --chart-3: #2e7d32;
+  --chart-4: #1b5e20;
+  --chart-5: #0a1f0c;
+  --popover: #f8f5f0;
+  --primary: #2e7d32;
+  --sidebar: #f0e9e0;
+  --font-mono: 'Source Code Pro', monospace;
+  --font-sans: 'Montserrat', sans-serif;
+  --secondary: #e8f5e9;
+  --background: #f8f5f0;
+  --font-serif: 'Merriweather', serif;
+  --foreground: #3e2723;
+
+  --shimmer-width: 200px;
+}
+
+.dark {
+  --card: #1e2e22;
+  --ring: #4caf50;
+  --input: #2a3d2e;
+  --muted: #1c2a1f;
+  --accent: #1b5e20;
+  --border: #2e4530;
+  --popover: #1e2e22;
+  --primary: #4caf50;
+  --sidebar: #1c2a1f;
+  --secondary: #1b3020;
+  --background: #1c2a1f;
+  --foreground: #f0ebe5;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--muted);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 3px;
+}
