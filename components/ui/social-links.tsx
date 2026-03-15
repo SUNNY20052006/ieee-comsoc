@@ -25,7 +25,7 @@ const socialLinks: SocialLink[] = [
   },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/company/iemcomsoc",
+    href: "https://www.linkedin.com/company/ieee-communication-society-iem-chapter/",
     icon: <Linkedin />,
     color: "#0A66C2",
   },
