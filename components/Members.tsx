@@ -13,10 +13,10 @@ const members = [
   { name: "Arkaprava Manna", role: "Treasurer", slug: "arkaprava" },
   { name: "Snehadri Nandi", role: "Webmaster", slug: "snehadri" },
   { name: "Srabanti Paul", role: "PR & Outreach Lead", slug: "srabanti" },
-  { name: "Sagnik Datta", role: "Content Lead", slug: "sagnik" },
+  { name: "Soumily Chatterjee", role: "Content Lead", slug: "soumily" },
   { name: "Trideep Dhar", role: "Graphics Lead", slug: "trideep" },
   { name: "Aishiki Podder", role: "Operational Lead", slug: "aishiki" },
-  { name: "Rajarshi Dhara", role: "Project Lead", slug: "rajarshi" },
+  { name: "Disha Chakraborty", role: "Project Lead", slug: "disha" },
 ];
 
 // Role → color mapping for visual variety
