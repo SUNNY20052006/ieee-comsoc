@@ -14,7 +14,16 @@ interface Event {
 }
 
 // Add upcoming events here when available
-const events: Event[] = [];
+const events: Event[] = [  {
+    id: "1",
+    title: "Tech Talk With Anjali Shaw",
+    description: "Online tech talk on communications technology covering key trends, insights, and real-world applications for students and tech enthusiasts",
+    date: "Sunday, April 19, 2025",
+    time: "5:00 PM – 6:00 PM",
+    registerLink: "https://forms.gle/hgeg9pk1mh5KDd5eA"
+  },
+];
+
 
 export default function Events() {
   return (
