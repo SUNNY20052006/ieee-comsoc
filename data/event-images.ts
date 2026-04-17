@@ -4,6 +4,11 @@
 // To add a new event: append one object to this array.
 // The UI renders automatically — no JSX edits required.
 // ─────────────────────────────────────────────────────────────────
+export interface EventImage {
+  title: string;
+  description: string;
+  image: string;
+}
 
 export const eventImages: EventImage[] = [
   {
