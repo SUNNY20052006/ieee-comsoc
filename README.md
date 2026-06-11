@@ -114,20 +114,6 @@ All color tokens live in `app/globals.css` under `:root`. Modify them to change 
 
 ---
 
-## Deployment (Vercel)
-
-1. Push your code to GitHub.
-2. Import the repo at [vercel.com/new](https://vercel.com/new).
-3. Vercel auto-detects Next.js — click **Deploy**.
-4. Add your custom domain (e.g., `iemcomsoc.com`) in **Settings → Domains**.
-
----
-
-## Recommended Domain
-
-`iemcomsoc.com`
-
----
 
 ## License
 
