@@ -17,9 +17,9 @@ export const eventImages: EventImage[] = [
     image: "/events/event1.jpg",   
   },
   {
-    title: "More To Come",
-    description: "See You Soon",
-    image: "", 
+    title: "Tech Talk 2026",
+    description: "MATLAB and Simulink fundamentals",
+    image: "/events/event2.jpg", 
   },
   {
     title: "More To Come",
