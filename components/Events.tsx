@@ -268,7 +268,7 @@ export default function Events() {
             index={0}
           />
           <EventColumn
-            title="Events Conducted"
+            title="Recent Event"
             events={conductedEvents}
             type="conducted"
             emptyState={<ConductedEmptyState />}
