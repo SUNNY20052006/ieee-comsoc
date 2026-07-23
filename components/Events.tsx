@@ -16,12 +16,7 @@ interface Event {
 // Add upcoming events here when available
 const upcomingEvents: Event[] = [
   {
-    id: "1",
-    title: "Tech Talk With Anand Mukhopadhyay",
-    description: "Interactive technical talk covering MATLAB and Simulink fundamentals, practical engineering applications, industry relevance, demonstrations, and expert guidance.",
-    date: "Wednesday, June 17, 202",
-    time: "10:0am onwards",
-    registerLink: "https://docs.google.com/forms/d/e/1FAIpQLSdm9Kk83Kx0ZvlnTZuYMM02GH16Dc8eF8F6dc_QA4u5U8D0yg/viewform"
+
   },
 ];
 
@@ -29,11 +24,11 @@ const upcomingEvents: Event[] = [
 const conductedEvents: Event[] = [
   {
     id: "1",
-    title: "Tech Talk With Anjali Shaw",
-    description: "Online tech talk on communications technology covering key trends, insights, and real-world applications for students and tech enthusiasts",
-    date: "Sunday, April 19, 2025",
-    time: "5:00 PM – 6:00 PM",
-    registerLink: "https://forms.gle/hgeg9pk1mh5KDd5eA"
+    title: "Tech Talk With Anand Mukhopadhyay",
+    description: "Interactive technical talk covering MATLAB and Simulink fundamentals, practical engineering applications, industry relevance, demonstrations, and expert guidance.",
+    date: "Wednesday, June 17, 202",
+    time: "10:0am onwards",
+    registerLink: "https://docs.google.com/forms/d/e/1FAIpQLSdm9Kk83Kx0ZvlnTZuYMM02GH16Dc8eF8F6dc_QA4u5U8D0yg/viewform"
   },
   
 ];
