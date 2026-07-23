@@ -15,9 +15,7 @@ interface Event {
 
 // Add upcoming events here when available
 const upcomingEvents: Event[] = [
-  {
 
-  },
 ];
 
 // Add past conducted events here
