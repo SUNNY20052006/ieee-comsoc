@@ -22,11 +22,11 @@ const upcomingEvents: Event[] = [
 const conductedEvents: Event[] = [
   {
     id: "1",
-    title: "Tech Talk With Anand Mukhopadhyay",
-    description: "Interactive technical talk covering MATLAB and Simulink fundamentals, practical engineering applications, industry relevance, demonstrations, and expert guidance.",
-    date: "Wednesday, June 17, 202",
-    time: "10:0am onwards",
-    registerLink: "https://docs.google.com/forms/d/e/1FAIpQLSdm9Kk83Kx0ZvlnTZuYMM02GH16Dc8eF8F6dc_QA4u5U8D0yg/viewform"
+    title: "Meme Making and Photography Contest",
+    description: "Make the funniest of memes and click the greatest of photos. Capture moments. Create Laughters",
+    date: "24 - 27 July, 2026",
+    time: "",
+    registerLink: "https://forms.gle/x1kW9kKW98jpC5iN6"
   },
   
 ];
